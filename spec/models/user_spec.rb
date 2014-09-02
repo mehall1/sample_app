@@ -51,9 +51,6 @@ describe User do
       end
     end
   end
-   
-  # cannot get this to work
-  
 
   describe "when email address is already taken" do
     before do
@@ -64,8 +61,6 @@ describe User do
 
     it { should_not be_valid }
   end
-
-# cannot get above to work
 
   describe "when password is not present" do
     before do
